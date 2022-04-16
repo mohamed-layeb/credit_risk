@@ -5,7 +5,7 @@ library(shiny)
 library(shinydashboard)
 library(caret)
 
-model <- readRDS("credit_scoring_glm_model.rds")
+model <- readRDS("rf_model.rds")
 
 
 
